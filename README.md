@@ -1,0 +1,1 @@
+# delphi-show-exe-build-time
