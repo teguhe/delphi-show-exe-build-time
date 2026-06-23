@@ -22,8 +22,8 @@ object Form1: TForm1
   object lb2: TLabel
     Left = 24
     Top = 48
-    Width = 369
-    Height = 49
+    Width = 366
+    Height = 30
     Caption = 
       'Aplikasi ini hanya untuk menampilkan tanggal build terakhir apli' +
       'kasi, ditampilkan di Title Aplikasi, di cek ketika aplikasi mula' +

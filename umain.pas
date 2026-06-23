@@ -27,6 +27,7 @@ var
 implementation
 
 {$R *.dfm}
+{$I BuildDate.inc}
 
 const
   CompileDate = '{$I %DATE%}';
@@ -44,11 +45,11 @@ begin
 
   { TODO : main action, check build time }
 
-  FileName := ParamStr(0);
+//  FileName := ParamStr(0);
+//  FileTime := TFile.GetLastWriteTime(FileName);
+//  Caption := 'Aplikasi Saya - Build: ' + FormatDateTime('dd/mm/yyyy hh:nn', FileTime);
 
-  FileTime := TFile.GetLastWriteTime(FileName);
-
-  Caption := 'Aplikasi Saya - Build: ' + FormatDateTime('dd/mm/yyyy hh:nn', FileTime);
+  Caption := 'Aplikasi Saya - Build: ' + sBuildDate;
 
 end;
 
